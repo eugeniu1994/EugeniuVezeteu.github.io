@@ -856,15 +856,33 @@
                     </div>
                 </div>
 
-                <div class="flex-row">
+
+                 <div class="flex-row">
+                    <div class="flex-item flex-item-stretch flex-column">
+                        <img class="image max-width-400" src="img/graph_slam.gif">
+                    </div>
                     <div class="flex-item flex-item-stretch-4 flex-column">
-                        <div class="flex-item flex-item-stretch flex-column">
-                            <img class="image max-width-400" src="img/rgbd.gif">
-                        </div>
+                        <p class="text">
+                            <a class="highlight-text" href="javascript:void(0)">3D LiDAR pose-graph slam</a><br>
+                            <a href="https://github.com/eugeniu1994/3D-LiDAR-pose-graph-slam">Source Code</a>
+                           <ul>
+                                <li>Estimate the transformation between laser scans with ICP;</li>
+                                <li>Construct the keyframe pose-graph in the FrontEnd;</li>
+                                <li>Optimize the graph in the BackEnd;</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+
+                 <div class="flex-row">
+                    <div class="flex-item flex-item-stretch flex-column">
+                        <img class="image max-width-400" src="img/rgbd.gif">
+                    </div>
+                    <div class="flex-item flex-item-stretch-4 flex-column">
                         <p class="text">
                             <a class="highlight-text" href="javascript:void(0)">Python implementation of the RGB-D SLAM</a><br>
                             <a href="https://github.com/eugeniu1994/RGB-D-SLAM">Source Code</a>
-                        <ul>
+                           <ul>
                                 <li>Detect and Track image feature;</li>
                                 <li>Perform Ransac PnP algorithm to estimate the transformation between the 3D point cloud on the current frame and their 2D pixel correspondences in the previous frame.;</li>
                                 <li>Build a pose graph based on estimated transformations;</li>
@@ -876,7 +894,6 @@
                         </p>
                     </div>
                 </div>
-
 
                 <div class="flex-row">
                     <div class="flex-item flex-item-stretch flex-column">
